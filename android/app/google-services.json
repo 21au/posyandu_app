@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "631154611172",
+    "project_id": "kesehatan-anak-app",
+    "storage_bucket": "kesehatan-anak-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631154611172:android:309c05b6d02ea50e342df1",
+        "android_client_info": {
+          "package_name": "com.example.app_posy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD46RD-SN_Pj899-MgjA11CSXVIxvz6M0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

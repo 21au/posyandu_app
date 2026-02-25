@@ -1,3 +1,5 @@
+import 'package:app_posy/lupapassword_screen.dart';
+import 'package:app_posy/register_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -96,7 +98,12 @@ class _LoginScreenState extends State<LoginScreen> {
                     ],
                   ),
                   TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const LupaPasswordScreen()),
+                      );
+                    },
                     child: Text(
                       "Lupa password ?",
                       style: GoogleFonts.poppins(fontSize: 12, color: const Color(0xFF102C57)),
@@ -145,9 +152,10 @@ class _LoginScreenState extends State<LoginScreen> {
                       style: GoogleFonts.poppins(fontSize: 13, color: const Color(0xFF102C57)),
                     ),
                     GestureDetector(
-                      onTap: () {
-                        // Arahkan ke halaman Register
-                      },
+                      onTap: () => Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const RegisterScreen()),
+                      ),
                       child: Text(
                         "Daftar disini",
                         style: GoogleFonts.poppins(
